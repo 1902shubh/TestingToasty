@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         SendMail mail = new SendMail(Config.EMAIL, Config.PASSWORD,
                 "shubhampandey979271@gmail.com",
                 "Testing my library",
-                "It's working.\n Subscribe Papaya Coders for more amazing videos");
+                "It's working.\n Share Papaya Coders for more amazing videos");
 
 
         findViewById(R.id.mail).setOnClickListener(v ->
